@@ -1,0 +1,10 @@
+html {
+    font: 16px/1.5 Raleway, sans-serif;
+}
+
+
+h1, h2 {
+    font-family: "Lucida Handwriting", cursive;
+    line-height: 1.2;
+    font-weight: bold;
+}
