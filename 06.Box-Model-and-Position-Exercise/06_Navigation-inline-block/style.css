@@ -1,0 +1,26 @@
+body {
+    padding: 4em;
+    font-family: Helvetica, sans-serif;
+}
+
+header {
+    border-bottom: 2px solid black;
+}
+
+header h1, nav {
+    display: inline-block;
+}
+
+h1 {
+    margin-right: 50px;
+}
+
+h2 {
+    font-family: 'Times New Roman', serif;
+}
+
+a {
+    margin: 10px;
+    text-decoration: none;
+    color: #090;
+}
