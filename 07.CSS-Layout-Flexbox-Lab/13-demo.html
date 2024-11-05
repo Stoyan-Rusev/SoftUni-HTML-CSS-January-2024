@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>'Demo'</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            /* border: 2px solid black; */
+        }
+        
+        .container {
+            border: 1px solid green;
+            margin: 1em;
+            padding: 1em;
+            display: flex;
+            /* justify-content: space-between; */
+            flex-wrap: wrap;
+            /* gap: 6em 6em; */
+            flex-direction: row-reverse;
+        }
+
+        .item {
+            border: 1px solid blue;
+            padding: 0.5em;
+        }
+
+        .item:nth-child(2) {
+            flex-grow: 2;
+        }
+
+        .item {
+            flex-grow: 1;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item">Item 1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Item 3</div>
+        <div class="item">Item 4</div>
+        <!-- <div class="item">Item 5</div>
+        <div class="item">Item 6</div>
+        <div class="item">Item 7</div>
+        <div class="item">Item 8</div> -->
+        <!-- <div class="item">Item 9</div> -->
+        <!-- <div class="item">Item 10</div>
+        <div class="item">Item 11</div>
+        <div class="item">Item 12</div> -->
+    </div>
+</body>
+</html>
