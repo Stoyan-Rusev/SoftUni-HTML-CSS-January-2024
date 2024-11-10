@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>"Gallery"</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        img {
+            display: block;
+            margin: 1em;
+        }
+        body, ul{
+            display: flex;
+        }
+        li {
+            border: 6px solid black;
+            flex: 0 0 250px;
+            display: flex;
+            align-items: center;
+            box-shadow: 
+                0 0 1em 0 rgba(0, 0, 0, 0.9),
+                0 0 1em 0 rgba(0, 0, 0, 0.3) inset
+            ;
+        }
+        body{
+            background-color: azure;    
+            margin: 1em;
+        }
+        ul {
+            list-style: none;
+            list-style-position: inside;
+            flex-wrap: wrap;
+            gap: 2em;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <section class="gallery">
+        <ul>
+            <li><img src="picture1.jpg" alt=""></li>
+            <li><img src="picture2.jpg" alt=""></li>
+            <li><img src="picture3.jpg" alt=""></li>
+            <li><img src="picture4.jpg" alt=""></li>
+            <li><img src="picture5.jpg" alt=""></li>
+            <li><img src="picture6.jpg" alt=""></li>
+            <li><img src="picture7.jpg" alt=""></li>
+            <li><img src="picture8.jpg" alt=""></li>
+            <li><img src="picture9.jpg" alt=""></li>
+        </ul>
+    </section>
+</body>
+</html>
