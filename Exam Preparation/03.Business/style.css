@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Serif');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 15px/1,5;
+    font-family: 'PT Sans', sans-serif98555;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'PT Serif', serif;
+}
+
+.background-image {
+    background-image: url('images/background.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    /* background-position: top center; */
+    /* width: 100vw; */
+}
+
+.center-container {
+    max-width: 1440px;
+    margin:  0 auto;
+    padding: 1em 3em;
+}
+
+.heading {
+    color: white;
+    margin-bottom: 1em;
+}
+
+.heading-par {
+    color: white;
+    max-width: 500px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+.navigation nav {
+    display: flex;
+    gap: 1em;
+}
+
+.navigation nav a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+.image img {
+    width: 100px;
+    height: auto;
+    display: block;
+}
+
+.heading-par {
+    margin-bottom: 2em;
+}
+
+
+/* second part */
+.columns {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2em;
+}
+
+.column {
+    max-width: 27em;
+}
+
+.column-header {
+    margin-bottom: 0.8em;
+}
+
+.column-p {
+    margin-bottom: 1.2em;
+}
+
+.column-link {
+    color: #B0825C;
+    border: 2px solid #B0825C;
+    text-decoration: none;
+    padding: 0.3em;
+}
+
+.outer-for-border {
+    border-bottom: 2px solid #CCCCCC;
+}
+
+
+/* third part */
+.partners-sponsors {
+    margin-bottom: 2em;
+}
+
+.partners-sponsors > * {
+    text-align: center;
+}
+
+.sp-heading {
+    color: #B0825C;
+    margin-bottom: 0.5em;
+}
+
+.circle-images-container {
+    display: flex;
+    justify-content: center;
+    gap: 3em;
+    padding: 2em;
+}
+
+.circle-images-container img {
+   width: 10em;
+    height: 10em;
+    border-radius: 50%;
+    background-color: #DDDDDD;
+    padding: 1em;
+}
+
+
+/* fourth parth */
+.black-container {
+    background-color: #171720;
+    border-bottom: 2px solid #CCCCCC;
+}
+
+.table-container {
+    display: flex;
+    gap: 4em;
+    padding-top: 2em;
+}
+
+.lower-h {
+    color: white;
+    padding-bottom: 1em;
+}
+
+.lower-p {
+    color: #CCCCCC;
+    line-height: 2;
+    text-transform: uppercase;
+}
+
+.last-p {
+    color: #CCCCCC;
+}
