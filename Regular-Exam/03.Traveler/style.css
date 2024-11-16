@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Karla', sans-serif;
+    font: 18px/1.5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Cormorant Infant', serif;
+}
+
+h2 {
+    font-size: 90px;
+}
+
+h3 {
+    font-size: 35px;
+}
+
+.heading {
+    text-align: center;
+}
+
+.heading h2 {
+    color: white;
+    margin-top: 1.2em;
+    margin-bottom: 1em;
+}
+
+.heading p {
+    color: white;
+    padding-bottom: 7em;
+}
+
+.navigation, footer{
+    max-width: 1700px;
+    margin: 0 auto;
+}
+
+.inner-container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation .logo, .navigation nav {
+    margin: 1em;
+}
+
+.navigation .logo {
+    max-width: 110px;
+    max-height: 64px;
+}
+
+.navigation span {
+    display: none;
+}
+
+.navigation nav a{
+    text-decoration: none;
+    color: white;
+    margin-inline: 1em;
+}
+
+.banner {
+    background-image: url('images/poster.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+/* second part */
+.light-background {
+    background-color: #F8F0E9;
+}
+
+.content-2 {
+    padding-block: 3em;
+}
+
+.content-2 .quote {
+    font-family: 'Cormorant', serif;
+    font-size: 30px;
+    margin-top: 2em;
+    font-style: italic;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+/* third part */
+.red-background {
+    background-color: #E14747;
+}
+
+.content-3 {
+    color: white;
+    text-align: center;
+    padding: 3em;
+}
+
+.content-3 .support {
+    font-weight: bold;
+    font-size: 18;
+    padding-bottom: 1em;
+}
+
+
+/* part fourth */
+.content-4 {
+    text-align: center;
+}
+
+.content-4 > * {
+    padding: 2em;
+}
+
+.content-4 h3 {
+    padding: 1em;
+}
+
+.content-4 img {
+    max-width: 630px;
+    max-height: 470px;
+}
+
+.content-4 .button-1, .content-4 .button-2 {
+    border: 1px solid black;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 0.3em 1em;
+    border-radius: 3px;
+}
+
+.content-4 p:nth-child(4){
+    text-align: start;
+}
+
+
+/* part five */
+.content-5 {
+    text-align: center;
+    color: white;
+    padding-bottom: 2em;
+}
+
+.content-5 > * {
+    padding: 1.2em;
+}
+
+.content-5 .button-find {
+    background-color: #FAD87A;
+    color: black;
+    text-decoration: none;
+    border-radius: 30px;
+    padding: 0.5em 1em;
+}
+
+/* part six */
+.black-background {
+    background-color: #352B2A;
+}
+
+footer img {
+    max-width: 80px;
+    max-height: 50px;
+}
+
+footer > * {
+    padding: 1em;
+}
+
+footer p:nth-child(2) {
+    color: white;
+}
+
+footer p:nth-child(3) {
+    color: #706262;
+}

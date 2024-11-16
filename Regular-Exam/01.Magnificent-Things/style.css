@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Inter, sans-serif;
+    font-size: 12px/1.5;
+}
+
+.site {
+    display: flex;
+    max-width: 1060px;
+    margin: 0.5em auto;
+    background-color: #85DCFF;
+    padding: 4em 2em;
+    gap: 3em;
+}
+
+.content {
+    padding-top: 8em;
+}
+
+.content h2 {
+    font-size: 2.5em;
+    font-weight: bold;
+    padding-right: 4em;
+    margin-bottom: 0.5em;
+}
+
+.content p {
+    font-size: 0.9em;
+}
+
+.content .buttons {
+    display: flex;
+    margin-top: 2.2em;
+    gap: 1em;
+}
+
+.buttons .button {
+    border-radius: 3px;
+    text-decoration: none;
+    color: black;
+    padding: 0.6em 1.2em;
+}
+
+.buttons .started {
+    background-color: #42AA59;
+    border: 1px solid black;
+}
+
+.buttons .started:hover {
+    background-color: black;
+    color: white;
+}
+
+.buttons .more {
+    background-color: white;
+}
+
+.picture img{
+    max-width: 360px;
+    max-height: 480px;
+    box-shadow: 5px 5px 5px black;
+}
